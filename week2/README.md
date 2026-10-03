@@ -75,3 +75,15 @@ fixed seed means every student gets identical stimuli, so results are comparable
 | Working memory ≈ 4 ± 1 chunks | Task 3, step 4 |
 | Channel effectiveness: position > length > angle > area > volume > colour | Task 4 |
 | One chart, one pop-out, one message | Task 5 |
+
+## Chart analysis
+
+**Task 1 — Visual search.** The three-condition figure shows why a red circle among blue circles pops out while a red circle among red squares and blue circles does not. In the response-time chart only the conjunction present slope rises as predicted, at about +18 ms/item. The colour and shape slopes are distorted by very slow opening trials (126 s, 32 s) spent learning the interface, and colour-absent cannot be computed at all because every colour trial was answered `y` by mistake.
+
+**Task 2 — Gestalt.** The six-panel figure holds the same kind of dots in every panel, so only the arrangement changes how many groups you see. The connection panel sets three principles against each other: similarity says two groups by colour, proximity says whatever clumps are nearby, and connection says 24 linked pairs. *The reader's counts have not been recorded yet, so which principle wins is still open.*
+
+**Task 3 — Cognitive load.** The 51-state chart carries roughly one data mark in twenty, the rest being a 51-entry legend, 51 meaningless hues and heavy gridlines. Stripping it in five steps shows sorting as the biggest single win, since it removes a 51-item search and adds no ink. The over-stripped version marks the floor — near-perfect data-ink, but nothing legible — and the tips reference lines show ink that *lowers* load by replacing 244 mental divisions.
+
+**Task 4 — Channel effectiveness.** The ranking chart puts the five channels within 3.6 percentage points of each other while every standard error is 9 to 12 points, so no adjacent pair is separated and the order is noise. Worse, the estimates do not track the stimuli: correlation with the true ratio is −0.10, every answer falling between 2 and 30 while the true ratios ran 15 to 85. This run cannot support a claim about channel effectiveness.
+
+**Task 5 — Capstone redesign.** The spaghetti chart puts 142 hues on screen, none meaningful, so the 1992 collapse is visible as a shape but unattributable. The redesign greys all 141 context countries into one chunk by similarity, leaving Rwanda as the only line that differs — carried by colour, width and a direct label, not colour alone. *The reader test has not been run, so section 5 and the last audit box are still open.*
