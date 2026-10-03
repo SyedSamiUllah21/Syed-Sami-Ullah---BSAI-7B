@@ -9,7 +9,7 @@ Datasets and assignments for Week 2: preattentive attributes, Gestalt principles
 ## Run the assignments
 
 ```bash
-cd week2/assignments
+cd week2
 python3 download_assignment_data.py
 jupyter notebook
 ```
@@ -20,9 +20,9 @@ Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`, `ipykernel`.
 
 | Path | What it is |
 |---|---|
-| `assignments/TASKS.md` | Five student tasks and the marking guide |
-| `assignments/download_assignment_data.py` | Downloads five datasets **and generates three stimulus files** |
-| `assignments/data/` | Created by the script — see the two tables below |
+| `TASKS.md` | Five student tasks and the marking guide |
+| `download_assignment_data.py` | Downloads five datasets **and generates three stimulus files** |
+| `data/` | Created by the script — see the two tables below |
 
 ## Assignments
 
@@ -34,7 +34,7 @@ Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`, `ipykernel`.
 | 4 | Channel effectiveness | `channel_trials.csv`, `iris.csv` | Reproducing the Cleveland & McGill ranking by experiment |
 | 5 | Capstone redesign | `gapminder.csv` or `diamonds.csv` | A full perception audit, before and after |
 
-Full briefs and the marking guide are in [`assignments/TASKS.md`](assignments/TASKS.md).
+Full briefs and the marking guide are in [`TASKS.md`](TASKS.md).
 
 Tasks 1, 2 and 4 require the student to **time or question one real person**. That is deliberate: this week
 is about how a brain behaves, and the result is more convincing when it comes out slightly messy.

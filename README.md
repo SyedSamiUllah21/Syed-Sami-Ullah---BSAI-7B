@@ -18,7 +18,7 @@ python download_assignment_data.py
 jupyter notebook
 
 # Week 2
-cd week2/assignments
+cd week2
 python download_assignment_data.py
 jupyter notebook
 ```
