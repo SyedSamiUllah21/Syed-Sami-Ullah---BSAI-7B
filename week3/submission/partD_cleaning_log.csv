@@ -1,0 +1,11 @@
+,detail
+rows loaded,"10,000"
+ward spellings conformed,"12 spellings -> 4 wards (strip, lower, map); 0 rows lost"
+dates parsed,"3 formats parsed separately (ISO 3382, dd-Mon 3365, dd/mm 3253); slash = day-first because 1933 have day > 12; 0 unparsed"
+bmi sentinels removed,"bmi == 0 (84) or 999 (402) -> NaN, n = 486; mean 66.18 -> 27.35 kg/m2"
+heart-rate device faults removed,"heart_rate < 30 (8, all 0 bpm) or > 250 (29, 331-415 bpm) -> NaN, n = 37; mean 78.83 -> 78.05 bpm"
+implausible stays removed,"los_days > 100 -> NaN, n = 18 (139.8-273.7 'days', likely hours keyed as days, incl. 6 in Day Surgery); mean 2.31 -> 1.95 days, median unchanged at 1.38"
+derived column excluded,map_mmhg = (sys + 2 x dia)/3 -> left out of the heatmap (its r with sys/dia is arithmetic)
+ratio column not averaged,"risk_score is events/day: mean of ratios 1.12 vs pooled rate 0.65 events/day -> not averaged, not in heatmap"
+clipped values flagged (kept),"age = 18 (90) and 97 (133); bmi = 14.0 (44); chol = 2.10 (47); spo2 = 100 (304, physical ceiling)"
+duplicates / blanks,"0 duplicate ids, 0 blank cells, 0 diastolic >= systolic - nothing removed"

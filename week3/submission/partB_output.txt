@@ -1,0 +1,19 @@
+Part B - Lie Factor audit (vizlib.lie_factor)
+                             subject data effect graphic effect  Lie Factor             verdict  ink_dimension  LF if dimension left at 1
+chart                                                                                                                                    
+A                 Corporate tax rate       +6.7%        +500.0%       75.00  exaggerates 75.00x              1                      75.00
+B      Federal health budget (Rs bn)      +50.0%        +125.0%        2.50   exaggerates 2.50x              2                       1.00
+C             Export earnings ($ bn)      +20.0%         +20.0%        1.00              honest              1                       1.00
+D                Air-pollution index      +50.0%         +12.5%        0.25  understates (0.25)              1                       0.25
+E         City population (millions)     +300.0%       +1500.0%        5.00   exaggerates 5.00x              2                       1.00
+Chart B: LF with dimension 2 = 2.5, with dimension left at 1 = 1.0
+Chart E: LF with dimension 2 = 5.0, with dimension left at 1 = 1.0
+
+Chart F (dual axis) - each line measured against its OWN axis:
+  revenue: data +50.0%, line height +1300.0%, LF 26.0
+  cost:    data +20.5%, line height +225.0%, LF 11.0
+  the claim is about the GAP between the lines:
+  gap in data (PKR m):           [8, 12, 14, 17, 20, 25]
+  gap on the canvas (axis frac): [-0.183, -0.108, -0.071, -0.029, 0.012, 0.121]
+  The data gap is positive every month; the drawn gap starts NEGATIVE, so there is no ratio to take -> no Lie Factor for F.
+  What the data shows: profit [8, 12, 14, 17, 20, 25] PKR m, margin 15% -> 32%

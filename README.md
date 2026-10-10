@@ -6,6 +6,7 @@ Coursework for the Data Visualization course, organised by week.
 |---|---|---|
 | 1 | Why we visualize, and choosing the right chart | [`week1/`](week1/) |
 | 2 | Visual perception — preattentive attributes, Gestalt, cognitive load | [`week2/`](week2/) |
+| 3 | Matplotlib & Seaborn — nine charts that are wrong, Lie Factor, CVD-safe palettes, the clinical review figure | [`week3/`](week3/) |
 
 Notebooks are committed with their outputs, so the charts are readable on GitHub without running anything.
 
@@ -21,6 +22,11 @@ jupyter notebook
 cd week2
 python download_assignment_data.py
 jupyter notebook
+
+# Week 3 (data already included)
+cd week3
+python vizlib.py
+jupyter notebook
 ```
 
-Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`, `ipykernel`.
+Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `jupyter`, `ipykernel`.
