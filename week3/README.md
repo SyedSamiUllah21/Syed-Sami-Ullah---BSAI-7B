@@ -39,6 +39,7 @@ Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `jupyter`, `ipyker
 | `partB_lie_factor.ipynb` | Part B: Lie Factor audit A–E, plus Chart F |
 | `partC_palette.ipynb` | Part C: CVD simulation and OKLab audit of two palettes |
 | `partD_clinical_figure.ipynb` | Part D: inspection, cleaning log, the 2×2 figure, the appendix |
+| `partE_justification.md` | Part E: the one-page written justification (the PDF version is in `submission/`) |
 | `bonus_popout_experiment.ipynb` | Bonus: four pop-out panels, timing harness, results chart |
 | `charts/` | Every rebuilt and redesigned chart (300 dpi PNG) |
 | `submission/` | The exact hand-in files from TASKS.md |
@@ -51,7 +52,7 @@ Requires `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `jupyter`, `ipyker
 | `partB_lie_factor.py` · `partB_output.txt` | B: script + its printed output |
 | `partC_palette.py` · `partC_palette.png` | C: script + before/after swatch sheet |
 | `partD_figure.py` · `partD_figure.png` · `partD_cleaning_log.csv` | D: script, 300 dpi figure, cleaning log |
-| `partE_justification.pdf` | E: one page |
+| `partE_justification.pdf` · `partE_justification.md` | E: the one-page justification (PDF to hand in, same text as Markdown so it reads on GitHub) |
 | `popout_experiment.py` · `popout_panels.png` | Bonus: experiment + panels (results chart appears after the five runs) |
 
 ## Self-checks
@@ -96,5 +97,7 @@ All **52** Part A self-checks pass. Every one is an `assert`, so the notebook st
 - only two pairs in the heatmap correlate at all
 
 The appendix keeps the 37 heart-rate faults in. No correlation changes by more than 0.03.
+
+**Part E — justification.** One page covering the brief's three items: the question, chart type and channel rule for each panel; every parameter and why I chose it; and every removal with its rule, count and before → after mean. The 37 heart-rate faults are removed *and* reported, with the appendix figure, and the page answers the symmetry test.
 
 **Bonus — pop-out.** The panels and the timing harness are built. *The five-person runs still have to be done:* run `popout_experiment.py --run` once per classmate. The results chart and the three sentences are then generated from the real times. No times are invented.
